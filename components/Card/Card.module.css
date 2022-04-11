@@ -1,0 +1,20 @@
+.card {
+  background: rgb(60, 60, 60);
+  box-shadow: 0.4rem 0.4rem 0.6rem rgb(0, 0, 0);
+
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  height: 20rem;
+  width: 16rem;
+  border-radius: 1.2rem 0.2rem 1.2rem 0.2rem;
+}
+
+.title {
+  color: #fafafa;
+}
+
+.image {
+  background: #fafafa;
+  color: #fafafa;
+
+  height: 4.8rem;
+}
