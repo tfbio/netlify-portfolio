@@ -1,0 +1,28 @@
+.button {
+  position: fixed;
+  bottom: 12px;
+  right: 14px;
+  z-index: 99;
+
+  background: var(--orange);
+  color: #fff;
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+
+  border: 0;
+  outline: 0;
+
+  filter: opacity(0.3);
+
+  transition: all 0.3s;
+  &:hover {
+    filter: opacity(1);
+  }
+
+  svg {
+    height: 1.4rem;
+    width: 1.4rem;
+    vertical-align: -0.2rem;
+  }
+}
