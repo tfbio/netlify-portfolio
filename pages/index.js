@@ -1,28 +1,17 @@
 import Head from 'next/head'
-import Card from '@components/Card'
-import { useRef } from 'react'
-import BackToTopButton from '@components/Buttons/BackToTop'
-import Clickable from '@components/Buttons/Clickable'
 import Navigation from '@components/Navigation'
-
-
+import IntroductionCard from '@components/IntroductionCard.js'
 
 
 export default function Home() {
-  const welcomeRef = useRef()
-  const projRef = useRef()
-  const studyRef = useRef()
-  const aboutRef = useRef()
-  
-
   return (
     <>
-    <Head>
+      <Head>
         <title>Home | Tfbio-me</title>
-    </Head>
-    <main>
-      <Navigation />
-    </main>
+      </Head>
+      <main>
+        <Navigation />
+      </main>
     </>
   )
 }
