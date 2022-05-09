@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
 
 export default function useDimensions() {
-  const definedWindow = typeof window !== 'undefined'
+  let definedWindow
+
+  useEffect(()=> {
+    definedWindow = typeof window !== 'undefined'
+  },[])
 
   function getWidth() {
     const width = definedWindow ? window.innerWidth : null;

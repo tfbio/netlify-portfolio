@@ -5,28 +5,23 @@
   font-family: -apple-system, Roboto, Fira Sans, sans-serif;
 }
 
+
 :root {
   --background: #0F1525;
-
-
-
-
   --black: #000000;
   --dark-gray: #121214;
-
   --white: #FFF;
   --faded-white: #d5d5dd;
-
   --yellow: #f2a949;
-
   --orange: #FF5200;
-
   --dark-purple: #c5b0ce;
   --purple: #dfc8e8;
+
+  --breakpoint-mobile: 425px;
 }
 
 body {
-  background: var(--faded-white);
+  background: #0d0d0d;
   color: var(--dark-gray);
   font-family: Roboto, sans-serif;
 }
@@ -37,5 +32,11 @@ main {
 
   min-width: 425px;
   height: 100vh;
+}
+
+@media(min-width: 450px) {
+  main {
+    margin-left: 8rem;
+  }
 }
 

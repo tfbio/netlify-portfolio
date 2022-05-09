@@ -5,12 +5,11 @@ import ShowcaseCard from '@components/ShowcaseCard'
 
 import styles from '../styles/Home.module.scss'
 
-
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Home | Tfbio-me</title>
+        <title>About | Tfbio-me</title>
       </Head>
       <Navigation />
       <main>

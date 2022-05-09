@@ -1,28 +1,36 @@
 import useDimension from 'hooks/useDimensions'
-import { useEffect, useState } from 'react'
+import { BsLinkedin, BsGithub, BsMedium } from 'react-icons/bs'
+import Link from 'next/link'
 import styles from './Nav.module.scss'
 
 export default function Navigation() {
   const currentWidth = useDimension()
 
-  if(currentWidth < 480) {
-    return (
-      <nav className={styles.header}>
-        <p>hola que tal</p>
-      </nav>
-    )
-  } else {
-    return (
-      <div className={styles.nav} >
-        <div className={styles.navMain}>
-          <a className={styles.navPag} href="#projects">Projects</a>
-          <a className={styles.navPag} href="#studies">Studies</a>
-          <a className={styles.navPag} href="#about">About</a>
-        </div>  
-        <a className={styles.externals} href="#">link</a>
-        <a className={styles.externals} href="#">git</a>
-        <a className={styles.externals} href="#">medium</a>
-      </div>
-    )
-  }
+  return (
+    <div className={styles.nav} >
+      <div className={styles.navMain}>
+        <Link href="/">
+          <a className={styles.navPag}>Home</a>
+        </Link>
+        <Link href="/projects">
+          <a className={styles.navPag}>Projects</a>
+        </Link>
+        <Link href="/studies">
+          <a className={styles.navPag}>Studies</a>
+        </Link>
+        <Link href="/about">
+          <a className={styles.navPag}>About</a>        
+        </Link>
+      </div>  
+      <a className={styles.externals} href="#">
+        <BsLinkedin />
+      </a>
+      <a className={styles.externals} href="#">
+        <BsGithub />
+      </a>
+      <a className={styles.externals} href="#">
+        <BsMedium />
+      </a>
+    </div>
+  )
 }
