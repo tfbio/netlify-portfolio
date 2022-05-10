@@ -22,13 +22,13 @@ export default function Navigation() {
           <a className={styles.navPag}>About</a>        
         </Link>
       </div>  
-      <a className={styles.externals} href="#">
+      <a className={styles.externals} href="http://www.linkedin.com/in/ftavares-oliveira">
         <BsLinkedin />
       </a>
-      <a className={styles.externals} href="#">
+      <a className={styles.externals} href="https://github.com/tfbio">
         <BsGithub />
       </a>
-      <a className={styles.externals} href="#">
+      <a className={styles.externals} href="https://medium.com/@tfbio.oliveira/review-on-bug-tracking-5149544bd2d2">
         <BsMedium />
       </a>
     </div>

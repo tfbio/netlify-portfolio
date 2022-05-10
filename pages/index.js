@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navigation />
       <main>
-        <section className={styles.firstSection}>
+        <section className={styles.homeSection}>
           <IntroductionCard />
         </section>
       </main>

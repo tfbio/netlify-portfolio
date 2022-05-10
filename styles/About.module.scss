@@ -1,0 +1,36 @@
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  width: 920px;
+  align-items: center;
+  justify-content: center;
+  background: #121214;
+  padding: 32px 28px;
+  margin: 0 8%;
+  border-radius: 6px;
+
+  p {
+    max-width: 540px;
+    color: var(--faded-white);
+    margin-right: 58px;
+  }
+}
+
+.hero {
+  background: var(--faded-white);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.lastMessage {
+  margin-top: 48px;
+}

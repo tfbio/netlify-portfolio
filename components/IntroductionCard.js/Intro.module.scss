@@ -87,13 +87,6 @@
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.11, 0, 0.5, 0);
   }
-  span:nth-child(10) {
-    animation-name: fadeIn;
-    animation-duration: 0.8s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.11, 0, 0.5, 0);
-  }
 }
 
 .firstLine {
@@ -102,5 +95,6 @@
 } 
 
 .secondLine {
-  font-size: 28px;
+  font-size: 26px;
+  font-weight: bold;
 }
