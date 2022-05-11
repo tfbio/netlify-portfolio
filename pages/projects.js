@@ -13,11 +13,12 @@ export default function Projects() {
       <Navigation />
       <main>
         <section className={styles.projectsSection}>
-            <ul>
-              <ShowcaseCard title="Project A" />
-              <ShowcaseCard title="Project B" />
-              <ShowcaseCard title="Project C" />
-            </ul>
+          <p className={styles.intro}>Projetims</p>
+          <ul>
+            <li key="Project A"><ShowcaseCard title="Project A" /></li>
+            <li key="Project B"><ShowcaseCard title="Project B" /></li>
+            <li key="Project C"><ShowcaseCard title="Project C" /></li>    
+          </ul>
         </section>
       </main>
     </>

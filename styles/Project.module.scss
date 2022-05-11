@@ -1,12 +1,45 @@
 .projectsSection {
   display: flex;
   flex-direction: column;
-  padding: 32px 32px 0 32px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 68px;
   
   ul {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     padding: 16px 68px 0 68px;
+    list-style-type: none;
   }
+
+  @keyframes SlideIn {
+    from { 
+      right: 200%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+
+  li {
+    right: 200%;
+    position: relative;
+    animation-name: SlideIn;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+  }
+  li:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  li:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+ 
+ 
 }
+
+.intro {
+  margin-bottom: 48px;
+}
+
