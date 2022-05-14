@@ -4,20 +4,26 @@
 
   display: flex;
   flex-direction: row;
-  padding: 12px;
+  padding: 12px 20px;
   width: 860px;
   border-radius: 1.2rem 0.2rem 1.2rem 0.2rem;
   margin-bottom: 12px;
+
+  a {
+    text-decoration: none;
+    overflow: hidden;  
+    border-radius: 2px;   
+  }
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 12px;
+  margin-left: 18px;
 }
 
 .title {
+  margin-top: 6px;
   margin-bottom: 8px;
   color: var(--yellow);
 }
@@ -27,8 +33,11 @@
 }
 
 .image {
-  height: 20px;
-  width: 80px;
   background: var(--white);
   border-radius: 2px;
+  transition: transform .4s; 
+}
+.image:hover {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
 }

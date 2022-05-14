@@ -1,21 +1,56 @@
 module.exports.languages = [
-  'Javascript',
-  'Typescript',
-  'Java',
+  {
+    id: 1,
+    name: 'Javascript',
+  },
+  {
+    id: 2,
+    name: 'Typescript',
+  },
+  {
+    id: 3,
+    name: 'Java',
+  },
 ]
 
 module.exports.frameworks = [
-  'React.js',
-  'Node.js',
-  'Html',
-  'CSS',
-  'SASS',
-  
+  {
+    id: 1,
+    name: 'React.js',
+  },
+  {
+    id: 2,
+    name: 'Node.js',
+  },
+  {
+    id: 3,
+    name: 'Html', 
+  },
+  {
+    id: 4,
+    name: 'CSS', 
+  },
+  {
+    id: 5,
+    name:  'SASS', 
+  },
 ]
 
 module.exports.other = [
-  'MongoDB',
-  'Postgres',
-  'MySQL',
-  'Docker',
+  {
+    id: 1,
+    name: 'MongoDB',
+  },
+  {
+    id: 2,
+    name: 'Postgres',
+  },
+  {
+    id: 3,
+    name: 'MySQL',
+  },
+  {
+    id: 4,
+    name: 'Docker',
+  },
 ]

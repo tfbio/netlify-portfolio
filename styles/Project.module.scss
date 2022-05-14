@@ -35,11 +35,12 @@
   li:nth-child(3) {
     animation-delay: 0.5s;
   }
- 
- 
 }
 
 .intro {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 28px;
   margin-bottom: 48px;
 }
 

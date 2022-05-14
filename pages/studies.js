@@ -16,9 +16,9 @@ export default function Studies() {
       <main>
         <section className={styles.content}>
           <div className={styles.techContainer}>
-            <div>{languages.map(lang => <TechCard title={lang} />)}</div>
-            <div>{frameworks.map(framework => <TechCard title={framework} />)}</div>
-            <div> {other.map(other => <TechCard title={other} />)}</div>
+            <div>{languages.map(lang => <TechCard key={lang.id} title={lang.name} />)}</div>
+            <div>{frameworks.map(framework => <TechCard key={framework.id} title={framework.name} />)}</div>
+            <div> {other.map(other => <TechCard key={other.id} title={other.name} />)}</div>
           </div>
           <div className={styles.studyContainer}>
             <StudyCard title="Projetim"/>
