@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navigation from '@components/Navigation'
 import ShowcaseCard from '@components/ShowcaseCard'
-import discord from 'assets/discordLogo.jpg'
+import discord from 'assets/discordLogo.JPG'
 import gbLogo from 'assets/gbLogo.jpg'
 import netlify from 'assets/netlify.jpg'
 
