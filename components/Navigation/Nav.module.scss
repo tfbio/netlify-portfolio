@@ -60,6 +60,10 @@
   color: var(--yellow);
   text-decoration: none;
   padding: 8px;
+  transition: transform 0.3s
+}
+.externals:hover {
+  transform: scale(1.2);
 }
 
 .header {

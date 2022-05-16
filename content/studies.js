@@ -2,31 +2,31 @@ module.exports.frontend = [
   {
     id: 1,
     title: 'GoRestaurant Web',
-    description: 'this is a neat description of this repo',
+    description: 'Frontend part of this restaurant app',
     link: 'https://github.com/tfbio/restaurant_web',
   },
   {
     id: 2,
     title: 'React ToDo List',
-    description: 'this is a neat description of this repo',
+    description: 'Classic ToDo list in Typescript/React',
     link: 'https://github.com/tfbio/conceitos-do-react',
   },
   {
     id: 3,
     title: 'React Movie Cards',
-    description: 'this is a neat description of this repo',
+    description: 'React components concepts used to display movies',
     link: 'https://github.com/tfbio/componentizando-a-aplicacao',
   },
   {
     id: 4,
     title: 'Next.js E-commerce',
-    description: 'this is a neat description of this repo',
+    description: 'Draft of E-commerce website with dynamic routing',
     link: 'https://github.com/tfbio/frontend-ecomm',
   },
   {
     id: 5,
     title: 'React hooks Shopping Cart',
-    description: 'this is a neat description of this repo',
+    description: 'React Context used with shopping cart',
     link: 'https://github.com/tfbio/hook-carinho-de-compras',
   }
 ]
@@ -35,31 +35,31 @@ module.exports.backend = [
   {
     id: 1,
     title: 'GoRestaurant Backend',
-    description: 'this is a neat description of this repo',
+    description: 'Backend part of this restaurant app',
     link: 'https://github.com/tfbio/e_commerce',
   },
   {
     id: 2,
-    title: 'Working with Middlewares',
-    description: 'this is a neat description of this repo',
-    link: 'https://github.com/tfbio/trabalhando-com-middlewares',
+    title: 'Node.js concepts and Express.js',
+    description: 'Base Node and Express concepts',
+    link: 'https://github.com/tfbio/conceitos-do-nodejs',
   },
   {
     id: 3,
     title: 'Working with Express.js',
-    description: 'this is a neat description of this repo',
+    description: 'Further understading routing with Express lib',
     link: 'https://github.com/tfbio/corrigindo-o-codigo',
   },
   {
     id: 4,
-    title: 'Node.js concepts and Express.js',
-    description: 'this is a neat description of this repo',
-    link: 'https://github.com/tfbio/conceitos-do-nodejs',
+    title: 'Working with Middlewares',
+    description: 'Study in Express middlewares',
+    link: 'https://github.com/tfbio/trabalhando-com-middlewares',
   },
   {
     id: 5,
     title: 'Database and Typeorm',
-    description: 'this is a neat description of this repo',
+    description: 'Studying Postgres with Typeorm interface',
     link: 'https://github.com/tfbio/gostack-database-exercise',
   },
 ]

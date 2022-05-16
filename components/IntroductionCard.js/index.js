@@ -6,15 +6,18 @@ export default function IntroductionCard() {
 
   return (
     <p className={styles.introduction}>
-      <span className={styles.firstLine}>Nice</span>
-      <span className={styles.firstLine}>to</span>
-      <span className={styles.firstLine}>meet</span>
-      <span className={styles.firstLine}>you,</span>
+      <span className={styles.firstLine}>Looking</span>
+      <span className={styles.firstLine}>for</span>
+      <span className={styles.firstLine}>a</span>
+      <span className={styles.firstLine}>web</span>
+      <span className={styles.firstLine}>developer?</span>
       <span className={styles.firstLine}>I'm</span>
       <span className={styles.firstLine}>Fabio</span>
       <span className={styles.firstLine}>Oliveira</span>
-      <span className={styles.secondLine}>Web</span>
-      <span className={styles.secondLine}>Developer</span>
+      <span className={styles.secondLine}>React.js</span>
+      <span className={styles.secondLine}>and</span>
+      <span className={styles.secondLine}>Node.js</span>
+      <span className={styles.secondLine}>developer</span>
     </p>
   )
 }

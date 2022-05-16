@@ -4,7 +4,7 @@
 
   display: flex;
   flex-direction: row;
-  padding: 12px 20px;
+  padding: 12px 6px 10px 15px;
   width: 860px;
   border-radius: 1.2rem 0.2rem 1.2rem 0.2rem;
   margin-bottom: 12px;
@@ -12,7 +12,7 @@
   a {
     text-decoration: none;
     overflow: hidden;  
-    border-radius: 2px;   
+    border-radius: 1.2rem 0.2rem 0.2rem 0.2rem;  
   }
 }
 
@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 18px;
+  width: 580px;
 }
 
 .title {
@@ -34,10 +35,12 @@
 
 .image {
   background: var(--white);
-  border-radius: 2px;
+  border-radius: 1.2rem 0.2rem 0 0.2rem;
   transition: transform .4s; 
+  overflow: hidden;
 }
 .image:hover {
   transform: scale(1.1);
   transform-origin: 50% 50%;
+
 }

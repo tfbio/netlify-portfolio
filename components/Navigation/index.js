@@ -4,8 +4,6 @@ import Link from 'next/link'
 import styles from './Nav.module.scss'
 
 export default function Navigation() {
-  const currentWidth = useDimension()
-
   return (
     <div className={styles.nav} >
       <div className={styles.navMain}>

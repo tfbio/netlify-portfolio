@@ -23,7 +23,7 @@ export default function Projects() {
                 link="https://github.com/tfbio/sample-discord-bot"
                 title="Discord Music Player"
                 image={discord}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm"
+                description="Discord Bot for organizing and running playlists for users inside channels. Stores playlists with Postgres and was deployed in Heroku"
               />
             </li>
             <li key="2">
@@ -31,7 +31,7 @@ export default function Projects() {
                 link="https://github.com/tfbio/gobarber-frontend"
                 title="GoBarber"
                 image={gbLogo}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm"
+                description="Application for scheduling appointments with many common features as registration, login and password recovery"
               />
             </li>
             <li key="3">
@@ -39,7 +39,7 @@ export default function Projects() {
                 link="#"
                 title="Tfbio-me on Netlify" 
                 image={netlify}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm"
+                description="Site developed in Next.js and deployed with Netlify"
               />
             </li>    
           </ul>

@@ -11,6 +11,10 @@ module.exports.languages = [
     id: 3,
     name: 'Java',
   },
+  {
+    id: 4,
+    name: 'Express.js',
+  },
 ]
 
 module.exports.frameworks = [
@@ -36,7 +40,11 @@ module.exports.frameworks = [
   },
   {
     id: 6,
-    name:  'SASS', 
+    name: 'SASS', 
+  },
+  {
+    id: 7,
+    name: 'Styled Components', 
   },
 ]
 
