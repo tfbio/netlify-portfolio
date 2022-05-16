@@ -16,7 +16,7 @@ export default function Projects() {
       <Navigation />
       <main>
         <section className={styles.projectsSection}>
-          <p className={styles.intro}>Recent projects I developed for learning purposes or personal use</p>
+          <p className={styles.intro}>Projects I developed for learning purposes or personal use</p>
           <ul>
             <li key="1">
               <ShowcaseCard 
@@ -36,7 +36,7 @@ export default function Projects() {
             </li>
             <li key="3">
               <ShowcaseCard 
-                link="#"
+                link="https://github.com/tfbio/netlify-site"
                 title="Tfbio-me on Netlify" 
                 image={netlify}
                 description="Site developed in Next.js and deployed with Netlify"
