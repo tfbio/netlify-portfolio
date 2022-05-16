@@ -1,9 +1,12 @@
 import styles from './Card.module.scss'
 
-export default function StudyCard({ title }) {
+export default function StudyCard({ title, description, link }) {
   return (
-    <div>
-      <h2>{title}</h2>   
-    </div>
+    <a href={link}>
+      <div className={styles.card}>
+        <strong>{title}</strong>
+        <p>{description}</p>   
+      </div>
+    </a>
   )
 }

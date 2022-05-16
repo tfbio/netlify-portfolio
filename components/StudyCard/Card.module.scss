@@ -1,0 +1,14 @@
+.card {
+  background-color: var(--yellow);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  position: relative;
+
+  left: 0;
+  transition: left ease 0.2s;
+}
+
+.card:hover {
+  left: 4px;
+}

@@ -24,14 +24,18 @@ module.exports.frameworks = [
   },
   {
     id: 3,
-    name: 'Html', 
+    name: 'Next.js', 
   },
   {
     id: 4,
-    name: 'CSS', 
+    name: 'Html', 
   },
   {
     id: 5,
+    name: 'CSS', 
+  },
+  {
+    id: 6,
     name:  'SASS', 
   },
 ]

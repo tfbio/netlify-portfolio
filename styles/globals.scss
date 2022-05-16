@@ -14,8 +14,6 @@
   --faded-white: #d5d5dd;
   --yellow: #f2a949;
   --orange: #FF5200;
-  --dark-purple: #c5b0ce;
-  --purple: #dfc8e8;
 
   --breakpoint-mobile: 425px;
 }
@@ -24,6 +22,11 @@ body {
   background: #0d0d0d;
   color: var(--dark-gray);
   font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0d0d;
 }
 
 main {
