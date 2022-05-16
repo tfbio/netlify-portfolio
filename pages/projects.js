@@ -36,7 +36,7 @@ export default function Projects() {
             </li>
             <li key="3">
               <ShowcaseCard 
-                link="https://github.com/tfbio/netlify-site"
+                link="https://github.com/tfbio/netlify-portfolio"
                 title="Tfbio-me on Netlify" 
                 image={netlify}
                 description="Site developed in Next.js and deployed with Netlify"
