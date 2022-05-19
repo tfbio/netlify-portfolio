@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   padding-top: 68px;
   
   ul {
@@ -40,7 +41,7 @@
 .intro {
   color: var(--white);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 48px;
 }
 

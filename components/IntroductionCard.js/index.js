@@ -14,9 +14,9 @@ export default function IntroductionCard() {
       <span className={styles.firstLine}>I'm</span>
       <span className={styles.firstLine}>Fabio</span>
       <span className={styles.firstLine}>Oliveira</span>
-      <span className={styles.secondLine}>React.js</span>
+      <span className={styles.secondLine}>Frontend</span>
       <span className={styles.secondLine}>and</span>
-      <span className={styles.secondLine}>Node.js</span>
+      <span className={styles.secondLine}>Backend</span>
       <span className={styles.secondLine}>developer</span>
     </p>
   )
