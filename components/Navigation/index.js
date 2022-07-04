@@ -1,4 +1,3 @@
-import useDimension from 'hooks/useDimensions'
 import { BsLinkedin, BsGithub, BsMedium } from 'react-icons/bs'
 import Link from 'next/link'
 import styles from './Nav.module.scss'
@@ -15,9 +14,6 @@ export default function Navigation() {
         </Link>
         <Link href="/studies">
           <a className={styles.navPag}>Studies</a>
-        </Link>
-        <Link href="/about">
-          <a className={styles.navPag}>About</a>        
         </Link>
       </div>  
       <a className={styles.externals} href="http://www.linkedin.com/in/ftavares-oliveira">

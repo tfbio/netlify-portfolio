@@ -1,8 +1,6 @@
-import useDimension from 'hooks/useDimensions'
 import styles from './Intro.module.scss'
 
 export default function IntroductionCard() {
-  const currentWidth = useDimension()
 
   return (
     <p className={styles.introduction}>
